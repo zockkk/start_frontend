@@ -1,0 +1,57 @@
+.acc button{
+    width: 13%;
+    height: 6vh;
+    background: red;
+    border-radius: 5px;
+    float: right;
+}
+
+.main{
+    float: left;
+    width: 60%;
+    height: 70vh;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10vh;
+    border: 20px;
+    margin-right: 20px;
+}
+
+.my-table{
+    display: table;
+    width: 100%;
+    height: 65vh;
+    padding: 20px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.my-table input {
+    padding: 5px;
+}
+
+div {
+    display: block;
+}
+
+.calendar{
+    float: left;
+    width: 20%;
+    margin-top: 10vh;
+}
+
+.completed{
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: 85%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
