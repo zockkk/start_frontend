@@ -74,6 +74,8 @@ body{
     left: 1210px;
 }
 
+
+
 .hero {
     top: 80px;
     width: 1440px;
@@ -83,12 +85,16 @@ body{
     background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
 }
 
+.hero-text {
+    display: flex;
+}
+
 .hero-text-1 {
-    color: #3D4F9F;
     display: flex;
     position: absolute;
     top: 172px;
     left: 673px;
+    color: #3D4F9F;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -181,6 +187,8 @@ body{
     left: 696px;
 }
 
+
+
 .customers {
     display: flex;
     position: absolute;
@@ -194,4 +202,24 @@ body{
 #apple-watch {
     top: 710px;
     left: 469px;
+}
+
+#atlassian{
+    top: 710px;
+    left: 854px;
+}
+
+#audi {
+    top: 710px;
+    left: 1047px;
+}
+
+#bitbucket {
+    top: 710px;
+    left: 276px;
+}
+
+#facebook {
+    top: 710px;
+    left: 662px;
 }
