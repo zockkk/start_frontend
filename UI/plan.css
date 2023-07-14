@@ -1,0 +1,65 @@
+.plan {
+    display: block;
+    position: static;
+    top: 797px;
+    background-color: #F5F8FF;
+    height: 776px;
+    width: 1440px;
+}
+
+.plan-text {
+    position: static;
+    top: 1005px;
+    left: 271px;
+}
+
+.plan-text-1 {
+    position: absolute;
+    color: #5E80FE;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    top: 1005px;
+    left: 271px;
+}
+
+.plan-text-2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #3D4F9F;
+    top: 1044px;
+    left: 271px;
+    position: absolute;
+}
+
+.plan-text-3 {
+    color: #8D96BD;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    top: 1116px;
+    left: 271px;
+    position: absolute;
+}
+
+.plan-buttons-view {
+    filter: drop-shadow(0px 5px 15px rgba(188, 199, 255, 0.75)); 
+    background-color: #4C85FF;
+    color: white;
+    width: 130px;
+    height: 43px;
+    font-size: 13px;
+    font-weight: 700;
+    border-width: 0;
+}
+
+.plan-buttons-see {
+    width: 130px;
+    height: 43px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #D1D1E4;
+    border-width: 1;
+    border-color: #D1D1E4;
+    background-color: #F5F8FF;
+}
