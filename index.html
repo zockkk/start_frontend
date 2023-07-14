@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="UI/header.css">
+    <link rel="stylesheet" href="UI/castomers.css">
+    <link rel="stylesheet" href="UI/hero.css">
+    <link rel="stylesheet" href="UI/plan.css">
+    <link rel="stylesheet" href="UI/body.css">
     <title>Мой первый макет</title>
 </head>
 <body>
@@ -38,14 +42,17 @@
     </div>
     <div class="hero">
         <hr>
-        <img src="images/hero/clouds.png" alt="clouds">
-        <img src="images/hero/Vector.png" alt="grad" id="grad">
-        <img src="images/hero/graph.png" alt="" id="graph">
-        <img src="images/hero/line-1.png" alt="" id="line-1">
-        <img src="images/hero/line-2.png" alt="" id="line-2">
-        <img src="images/hero/line-3.png" alt="" id="line-3">
-        <img src="images/hero/line-4.png" alt="" id="line-4">
-        <img src="images/hero/elipsis.png" alt="" id="elipsis">
+        <div class="hero-background-images">
+            <div id="ellipse"></div>
+            <img src="images/hero/clouds.png" alt="clouds" id="clouds">
+            <img src="images/hero/Vector.png" alt="grad" id="grad">
+            <img src="images/hero/graph.png" alt="" id="graph">
+            <img src="images/hero/line-1.png" alt="" id="line-1">
+            <img src="images/hero/line-2.png" alt="" id="line-2">
+            <img src="images/hero/line-3.png" alt="" id="line-3">
+            <img src="images/hero/line-4.png" alt="" id="line-4">
+            <img src="images/hero/elipsis.png" alt="" id="ellipsis">
+        </div>
         <div class="hero-text">
             <div class="hero-text-1">PLAN YOUR LIFE</div>
             <div class="hero-text-2">
@@ -67,6 +74,21 @@
         <img src="images/customers/bitbucket.png" alt="" id="bitbucket">
         <img src="images/customers/facebook.png" alt="" id="facebook">
         <hr id="customers-hr-bottom">
+    </div>
+    <div class="plan">
+        <div class="plan-text">
+            <div class="plan-text-1">DESKTOP AND MOBILE APP</div>
+            <div class="plan-text-2"><b>Plan</b> and <b>manage</b></div>
+            <div class="plan-text-3">Brute laoreet efficiendi id his, ea illum nonumes luptatum
+                <br>pro. Usu atqui laudem an, insolens gubergren similique 
+                <br>est cu. Et vel modus congue vituperata. Solum patrioque 
+                <br>no sea. Mea ex malis mollis oporteat. Eum an expetenda 
+                <br>consequat.</div>
+        </div>
+        <div class="plan-buttons">
+            <button class="plan-buttons-view">View video<img src="images/plan/Polygon.png" alt=""></button>
+            <button class="plan-buttons-see">See features</button>
+        </div>
     </div>
 </body>
 </html>

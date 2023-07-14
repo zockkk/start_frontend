@@ -1,0 +1,57 @@
+.customers {
+    display: flex;
+    position: static;
+    width: 1440px;
+    height: 146px;
+    border-width: 1px;
+    border-color: #D8E3FE;
+}
+
+.customers img{
+    position: absolute;
+}
+
+#apple-watch {
+    top: 710px;
+    left: 469px;
+}
+
+#atlassian{
+    top: 710px;
+    left: 854px;
+}
+
+#audi {
+    top: 710px;
+    left: 1047px;
+}
+
+#bitbucket {
+    top: 710px;
+    left: 276px;
+}
+
+#facebook {
+    top: 710px;
+    left: 662px;
+}
+
+#customers-hr-top{
+    position: absolute;
+    width: 1440px;
+    border-color:#D8E3FE;
+    border-style: solid;
+    border-width: 1px;
+    margin: -2px;
+    top: 650px;
+}
+
+#customers-hr-bottom{
+    position: absolute;
+    width: 1440px;
+    border-color:#D8E3FE;
+    border-style: solid;
+    border-width: 1px;
+    margin: -2px;
+    top: 796px;
+}
