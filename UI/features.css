@@ -1,0 +1,58 @@
+.features {
+    position: static;
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 885px;
+    background-image: url(../images/features/features_clouds.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+.features-line {
+    position: absolute;
+    width: 1440px;
+    border-color: #D8E3FE;
+    border-style: solid;
+    border-width: 1px;
+    margin: -2px;
+}
+
+.features-content {
+    position: absolute;
+    top: 1746px;
+    left: 340px;
+    width: 761px;
+    height: 543px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features-features {
+    position: relative;
+}
+
+.features-title {
+    color: #3D4F9F;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.features-title-1 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#features-button-1, #features-button-2, #features-button-3 {
+    width: 113px;
+    height: 43px;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 13pz;
+    text-align: center;
+}
